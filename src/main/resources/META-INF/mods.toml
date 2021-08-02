@@ -1,0 +1,45 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[36,)" #mandatory
+
+license="All rights reserved"
+
+[[mods]] #mandatory
+
+modId="txpb" #mandatory
+
+version="1.0.0" #mandatory
+
+displayName="Temporary Experience Boosters" #mandatory
+
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+
+logoFile="examplemod.png" #optional
+
+credits="Sorry, but it seems I've forgotten who gave this mod suggestion." #optional
+
+authors="qSided" #optional
+
+description='''
+An addon mod for Project MMO which simply adds potions that give temporary XP boosters to specific skills.
+'''
+
+[[dependencies.txpb]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[36,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.txpb]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

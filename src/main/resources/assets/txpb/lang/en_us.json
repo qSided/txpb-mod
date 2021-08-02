@@ -1,0 +1,12 @@
+{
+  "effect.txpb.agility_booster": "Agility Boost",
+  "item.minecraft.potion.effect.agility_booster": "Booster o' Agility",
+  "item.minecraft.splash_potion.effect.agility_booster": "Splash Booster o' Agility",
+  "item.minecraft.lingering_potion.effect.agility_booster": "Lingering Booster o' Agility",
+  "item.minecraft.tipped_arrow.effect.agility_booster": "Booster o' Agility Arrow",
+  "effect.txpb.vanilla_booster": "Booster o' Enchanting",
+  "item.minecraft.potion.effect.vanilla_booster": "Booster o' Enchanting",
+  "item.minecraft.splash_potion.effect.vanilla_booster": "Splash Booster o' Enchanting",
+  "item.minecraft.lingering_potion.effect.vanilla_booster": "Lingering Booster o' Enchanting",
+  "item.minecraft.tipped_arrow.effect.vanilla_booster": "Booster o' Enchanting Arrow"
+}
